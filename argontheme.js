@@ -1465,7 +1465,7 @@ document.addEventListener('click', (e) => {
 　　if(e.target.id != "comment_emotion_btn" && e.target.id != "emotion_keyboard" && !document.getElementById("comment_emotion_btn").contains(e.target) && !document.getElementById("emotion_keyboard").contains(e.target)){
 		$("#comment_emotion_btn").removeClass("comment-emotion-keyboard-open");
 　　}
-})
+});
 /*查看评论编辑记录*/
 function showCommentEditHistory(id){
 	let requestID = parseInt(new Date().getTime());
